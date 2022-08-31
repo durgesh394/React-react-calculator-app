@@ -21,6 +21,7 @@ const Calculator = () => {
     const Remove = () =>{
       setInput(Input.slice( 0 ,Input.length-1))
     }
+    //show Result On Display
     const Result = () =>{
         setInput("Ans : " + eval(Input))
     }
